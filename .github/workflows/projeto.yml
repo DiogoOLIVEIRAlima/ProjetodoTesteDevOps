@@ -28,3 +28,8 @@ jobs:
       
     - name: Compilar Teste
       run: javac -cp src src/ClasseTeste.java
+      
+    - name: Executar Teste
+      run: |
+        cd src 
+        java ClasseTeste
